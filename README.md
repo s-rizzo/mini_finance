@@ -31,6 +31,8 @@ By working on this project, you will practice **Git & GitHub in real-world workf
 
 ---
 
+## **This project demonstrates Git operations like clone, pull, push, PR-a hands-on Mini-Finance tool.**
+
 ## **🛠️ Your First Task: Personalizing the Profile Page**  
 Your first **development task** is to update the **Profile Page** by modifying user details.
 
