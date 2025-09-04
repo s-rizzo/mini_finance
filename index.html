@@ -591,17 +591,19 @@ Bootstrap 5 Dashboard Admin Template
                           </div>
                       </div>
                 </footer>
+            </main>
 
-<script>
-  const today = new Date();
-  const options = { day: '2-digit', month: 'short', year: 'numeric' };
-  document.getElementById('deploy-date').textContent =
-    today.toLocaleDateString('en-GB', options);
-</script>
-                </main>
 
             </div>
         </div>
+
+    <!-- Dynamic date script -->
+    <script>
+      const today = new Date();
+      const options = { day: '2-digit', month: 'short', year: 'numeric' };
+      document.getElementById('deploy-date').textContent =
+        today.toLocaleDateString('en-GB', options);
+    </script>
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
