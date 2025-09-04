@@ -953,14 +953,25 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  padding-right: 20px;
-  padding-left: 20px;
+  background-color: var(--white-color);
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 30px;
 }
 
-.copyright-text {
-  font-size: var(--copyright-font-size);
+.site-footer p {
+  font-size: var(--menu-font-size); /* bigger, more readable */
+  color: var(--dark-color);         /* strong contrast */
+  margin: 0;
+  line-height: 1.5;
 }
 
+@media screen and (max-width: 480px) {
+  .site-footer p {
+    font-size: 12px; /* slightly smaller on small screens */
+  }
+}
 
 /*---------------------------------------
   RESPONSIVE STYLES               
