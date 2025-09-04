@@ -229,5 +229,8 @@ This project demonstrates Git operations like clone, pull, push, and creating a 
 
 ## Sprint Footer Assignment – Daily Progress
 
-- **Day 1 (04 Sep 2025):** Added static footer with version/date/author and deployed to EC2.  
-- **Day 2 (05 Sep 2025):** Made footer date dynamic using JavaScript.  
+- **Day 1:** Added static footer with version/date/author and deployed to EC2.  
+- **Day 2** Made footer date dynamic using JavaScript.  
+- **Day 3:** Improved footer style & accessibility.
+- **Day 4:** Added commit hash + /healthz endpoint.
+- **Day 5:** Final review & retro, burndown chart, demo recorded.
