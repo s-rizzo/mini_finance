@@ -598,9 +598,15 @@ Bootstrap 5 Dashboard Admin Template
         </div>
 
     <!-- Dynamic date script -->
-    <script>
+       <script>
+      // Force date to your local timezone (example: Europe/London)
       const today = new Date();
-      const options = { day: '2-digit', month: 'short', year: 'numeric' };
+      const options = { 
+        day: '2-digit', 
+        month: 'short', 
+        year: 'numeric', 
+        timeZone: 'Europe/London'  // ✅ Adjust timezone here if needed
+      };
       document.getElementById('deploy-date').textContent =
         today.toLocaleDateString('en-GB', options);
     </script>
