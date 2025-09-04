@@ -224,3 +224,10 @@ See you in the **LinkedIn network!** 🎉
 Assignment Note
 
 This project demonstrates Git operations like clone, pull, push, and creating a Pull Request—a hands-on Mini-Finance tool.
+
+---
+
+## Sprint Footer Assignment – Daily Progress
+
+- **Day 1 (04 Sep 2025):** Added static footer with version/date/author and deployed to EC2.  
+- **Day 2 (05 Sep 2025):** Made footer date dynamic using JavaScript.  
