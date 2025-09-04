@@ -227,10 +227,20 @@ This project demonstrates Git operations like clone, pull, push, and creating a 
 
 ---
 
-## Sprint Footer Assignment – Daily Progress
+## Sprint Footer Assignment – Daily Progress - Deployment History
 
-- **Day 1:** Added static footer with version/date/author and deployed to EC2.  
-- **Day 2** Made footer date dynamic using JavaScript.  
-- **Day 3:** Improved footer style & accessibility.
-- **Day 4:** Added commit hash + /healthz endpoint.
-- **Day 5:** Final review & retro, burndown chart, demo recorded.
+- **Day 1** – Added static footer  
+  *Mini Finance v1.0 — static text visible on EC2.*
+
+- **Day 2** – Made deploy date dynamic  
+  *Footer now shows today’s date automatically (via JavaScript).*
+
+- **Day 3** – Improved footer style & accessibility  
+  *Adjusted font size/contrast for WCAG AA, tested mobile + desktop layouts.*
+
+- **Day 4** – Added commit hash + /healthz endpoint  
+  *Footer includes short Git commit hash (rev: acf04c7).  
+  Created `/healthz.html` returning `OK — rev: acf04c7` for monitoring.*
+
+- **Day 5** – Final review & retro  
+  *Recorded demo video, wrote retrospective, captured final burndown chart.*
