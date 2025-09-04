@@ -578,15 +578,26 @@ Bootstrap 5 Dashboard Admin Template
                         </div>
                     </div>
 
-                 <footer class="site-footer">
-                     <div class="container">
-                         <div class="row">
-                             <div class="col-lg-12 col-12">
-                                    <p>Mini Finance v1.0 — Deployed on 03 Sep 2025 — By Samanta Rizzo</p>
-                                </div>
-                            </div>
-                        </div>
+                <footer class="site-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-12">
+                                 <p>
+                                     Mini Finance v1.0 — Deployed on 
+                                    <span id="deploy-date"></span> 
+                                     — By Samanta Rizzo
+                                </p>
+                             </div>
+                          </div>
+                      </div>
                 </footer>
+
+<script>
+  const today = new Date();
+  const options = { day: '2-digit', month: 'short', year: 'numeric' };
+  document.getElementById('deploy-date').textContent =
+    today.toLocaleDateString('en-GB', options);
+</script>
                 </main>
 
             </div>
